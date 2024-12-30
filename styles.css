@@ -77,10 +77,13 @@ h2 {
   transform: rotate(-90deg);
   position: relative;
   font-weight: bold;
+  font-size: 3.5rem;
 }
 .infoHeading {
-  top: 5px;
-  left: 50px;
+  /* top: 5px;
+  left: 50px; */
+  top: 5%;
+  left: 28%;
 }
 .arkHeading {
   top: 155px;
@@ -202,17 +205,17 @@ h2 {
   display: flex;
   flex-direction: row;
   margin: 1rem 0;
-  border: 1px lime solid;
+  /* border: 1px lime solid; */
 }
 /*  paragraphs */
 .container div div div p {
   /* border: solid 1px red; */
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   width: 200px;
 }
 .container div div div p.cvSubheadingsPara {
   margin-left: 120px;
-  border: solid 1px pink;
+  /* border: solid 1px pink; */
   width: auto;
 }
 

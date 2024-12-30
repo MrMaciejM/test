@@ -10,21 +10,39 @@ const isMobile = () => window.innerWidth <= 425;
 
 contentBox.innerHTML = content[1];
 
+// contentBox fade-in/out animation
+function fadeAnim() {
+  contentBox.style.opacity = 0;
+  contentBox.style.transition = "all 0s";
+  setTimeout(() => {
+    contentBox.style.transition = "all 1s";
+    contentBox.style.opacity = 1;
+  }, 700);
+}
+
 function displayContent(index) {
   switch (index) {
     case "1":
+      contentBox.style.opacity = 0;
+      fadeAnim();
       contentBox.innerHTML = content[1];
       break;
 
     case "3":
+      contentBox.style.opacity = 0;
+      fadeAnim();
       contentBox.innerHTML = "";
       contentBox.innerHTML = content[2];
       break;
     case "4":
+      contentBox.style.opacity = 0;
+      fadeAnim();
       contentBox.innerHTML = "";
       contentBox.innerHTML = content[3];
       break;
     case "5":
+      contentBox.style.opacity = 0;
+      fadeAnim();
       contentBox.innerHTML = "";
       contentBox.innerHTML = content[4];
       break;
