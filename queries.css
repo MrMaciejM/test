@@ -151,3 +151,19 @@
     text-align: center;
   }
 }
+
+@media (max-width: 425px) {
+  .contentBox {
+    padding: 3% 10%;
+  }
+  .contentBox h2 {
+    font-size: 1.3rem;
+    width: 361px;
+  }
+  /* CV */
+  .container div div div p {
+    /* border: solid 1px red; */
+    font-size: 1rem;
+    width: 150px;
+  }
+}
