@@ -38,7 +38,7 @@ html {
   font-family: "NotCourierSans";
 }
 
-/* section aka parent of tiles and content div  */
+/* section element, aka parent of tiles and content div  */
 .container {
   display: flex;
 }
@@ -46,7 +46,6 @@ html {
 .container div {
   /* border: solid 1px green; */
   height: 100vh;
-  /* line-height: 100px; */
   font-size: 28px;
   transition: all 0.5s ease;
 }
@@ -80,22 +79,23 @@ h2 {
   font-size: 3.5rem;
 }
 .infoHeading {
-  /* top: 5px;
-  left: 50px; */
   top: 5%;
-  left: 28%;
 }
 .arkHeading {
-  top: 155px;
-  left: 50px;
+  top: 33%;
 }
 .akuHeading {
-  top: 80px;
-  left: 50px;
+  top: 19%;
 }
 .cvHeading {
-  bottom: 45px;
-  left: 50px;
+  bottom: 4.2%;
+}
+
+.infoHeading,
+.arkHeading,
+.akuHeading,
+.cvHeading {
+  left: 25%;
 }
 
 /***** CONTENT BOX + INFO CONTENT *****/
@@ -215,47 +215,6 @@ h2 {
 }
 .container div div div p.cvSubheadingsPara {
   margin-left: 120px;
-  /* border: solid 1px pink; */
   width: auto;
-}
-
-/* Responsive Design for Mobile (425px or lower) */
-@media (max-width: 425px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
-  }
-
-  /* tiles  */
-  .container div {
-    width: 100%;
-    height: 50px; /* Adjust height of tiles */
-    font-size: 10px; /* Reduce font size */
-  }
-
-  /* Content Box  */
-  .contentBox {
-    display: flex;
-    flex-direction: column;
-    /* height: 100vh; */
-    overflow-y: scroll;
-    overflow-x: hidden;
-    /* border: solid 5px red; */
-  }
-
-  h2 {
-    transform: rotate(0deg);
-    font-size: 26px;
-  }
-  .infoHeading,
-  .arkHeading,
-  .akuHeading,
-  .cvHeading {
-    top: 15.5%;
-    left: 0;
-    bottom: 0;
-    text-align: center;
-  }
+  /* border: solid 1px pink; */
 }

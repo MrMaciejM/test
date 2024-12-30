@@ -1,2 +1,153 @@
-@media (max-width: 1700px) {
+@media (max-width: 1600px) {
+  h2 {
+    font-size: 3rem;
+  }
+  .infoHeading {
+    top: 5%;
+  }
+  .arkHeading {
+    top: 29%;
+  }
+  .akuHeading {
+    top: 17.3%;
+  }
+  .cvHeading {
+    bottom: 2.5%;
+  }
+}
+
+@media (max-width: 1417px) {
+  /* tiles h2 */
+  h2 {
+    font-size: 2.5rem;
+  }
+  .contentBox h2 {
+    font-size: 1.7rem;
+  }
+  .contentBox h3 {
+    font-size: 1.1rem;
+  }
+  .contentParagraphs {
+    font-size: 1rem;
+  }
+  /* CV */
+  .container div div div {
+    width: 43rem;
+  }
+  .container div div div p.cvSubheadingsPara {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1135px) {
+  h2 {
+    font-size: 2rem;
+  }
+  .infoHeading {
+    top: 3%;
+  }
+  .arkHeading {
+    top: 19%;
+  }
+  .akuHeading {
+    top: 10.9%;
+  }
+  .cvHeading {
+    bottom: 2.5%;
+  }
+  .contentBox h2 {
+    font-size: 1.3rem;
+    width: 361px;
+  }
+  .contentBox h3 {
+    font-size: 1rem;
+    width: 220px;
+  }
+  .contentParagraphs {
+    font-size: 0.92rem;
+  }
+  /* CV */
+  .container div div h3 {
+    font-size: 1.2rem;
+  }
+  .container div div div p {
+    /* border: solid 1px red; */
+    font-size: 1rem;
+    width: 170px;
+  }
+}
+
+@media (max-width: 875px) {
+  .infoHeading {
+    top: 5%;
+  }
+  .arkHeading {
+    top: 21%;
+  }
+  .akuHeading {
+    top: 13%;
+  }
+  .cvHeading {
+    bottom: 0.3%;
+  }
+  .infoHeading,
+  .arkHeading,
+  .akuHeading,
+  .cvHeading {
+    left: 13%;
+  }
+  /* CV */
+  .container div div h3 {
+    font-size: 1.1rem;
+  }
+  .container div div div p {
+    /* border: solid 1px red; */
+    font-size: 1rem;
+    width: 170px;
+  }
+  .container div div div p.cvSubheadingsPara {
+    margin-left: 20px;
+    width: auto;
+    /* border: solid 1px pink; */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+
+  /* tiles  */
+  .container div {
+    width: 100%;
+    height: 50px;
+    font-size: 10px;
+  }
+
+  /* Content Box  */
+  .contentBox {
+    display: flex;
+    flex-direction: column;
+    /* height: 100vh; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* border: solid 5px red; */
+  }
+
+  h2 {
+    transform: rotate(0deg);
+    font-size: 26px;
+  }
+  .infoHeading,
+  .arkHeading,
+  .akuHeading,
+  .cvHeading {
+    top: 15.5%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+  }
 }
