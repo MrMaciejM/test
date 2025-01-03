@@ -21,6 +21,21 @@
   h2 {
     font-size: 2.5rem;
   }
+
+  /* Headings */
+  .infoHeading {
+    top: 3.5%;
+  }
+  .arkHeading {
+    top: 24%;
+  }
+  .akuHeading {
+    top: 14%;
+  }
+  .cvHeading {
+    bottom: 2.5%;
+  }
+  /*  */
   .contentBox h2 {
     font-size: 1.7rem;
   }
